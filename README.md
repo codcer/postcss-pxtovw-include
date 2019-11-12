@@ -67,13 +67,13 @@ If your project involves a fixed width, this script will help to convert pixels 
 Add via npm
 
 ```
-$ npm install postcss-px-to-viewport --save-dev
+$ npm install postcss-pxtovw-include -D
 ```
 
 or yarn
 
 ```
-$ yarn add -D postcss-px-to-viewport
+$ yarn add -D postcss-pxtovw-include
 ```
 
 ### Usage
@@ -177,10 +177,6 @@ Then run the tests via npm script:
 ```
 $ npm run test
 ```
-
-## Contributing
-
-Please read [Code of Conduct](CODE-OF-CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md) for submitting pull requests to us.
 
 ## License
 

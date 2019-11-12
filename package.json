@@ -1,7 +1,7 @@
 {
-  "name": "postcss-px-to-vw-include",
+  "name": "postcss-pxtovw-includes",
   "description": "A CSS post-processor that converts px to viewport units (vw, vh, vmin, vmax).",
-  "version": "1.1.2",
+  "version": "1.0.0",
   "author": "CoF <codcer@gmail.com>",
   "license": "MIT",
   "repository": {
