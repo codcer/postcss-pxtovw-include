@@ -25,7 +25,7 @@ var defaults = {
 module.exports = postcss.plugin("postcss-pxtovw-include", function(options) {
   var opts = objectAssign({}, defaults, options);
 
-  var pxRegex = getUnitRegexp(opts.unitToConvert);
+  var pxRegex = getUnitRegexp(opts.unitToConvert); // 生成带单位的正则
   var satisfyPropList = createPropListMatcher(opts.propList);
   var landscapeRules = [];
 
